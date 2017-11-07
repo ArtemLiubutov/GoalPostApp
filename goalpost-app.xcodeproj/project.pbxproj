@@ -14,7 +14,9 @@
 		7141C7481F2FAFBB00EC9628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7141C7471F2FAFBB00EC9628 /* Assets.xcassets */; };
 		7141C74B1F2FAFBB00EC9628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7141C7491F2FAFBB00EC9628 /* LaunchScreen.storyboard */; };
 		7141C7571F2FBC0800EC9628 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7561F2FBC0800EC9628 /* GoalCell.swift */; };
-		7FDBA3501FAC937C00B6ED28 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDBA34F1FAC937C00B6ED28 /* GoalType.swift */; };
+		7141C7591F2FC4DB00EC9628 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7581F2FC4DB00EC9628 /* GoalType.swift */; };
+		7141C75B1F2FC9EB00EC9628 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */; };
+		7F6747251FB2044000DB1965 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +29,9 @@
 		7141C74A1F2FAFBB00EC9628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7141C74C1F2FAFBB00EC9628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7141C7561F2FBC0800EC9628 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
-		7FDBA34F1FAC937C00B6ED28 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		7141C7581F2FC4DB00EC9628 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,8 @@
 		7141C73C1F2FAFBB00EC9628 /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
-				7FDBA34E1FAC937000B6ED28 /* Enums */,
+				7F6747231FB2030D00DB1965 /* Extensions */,
+				7141C7541F2FAFFF00EC9628 /* Enums */,
 				7141C7531F2FAFE500EC9628 /* View */,
 				7141C7521F2FAFD500EC9628 /* Controller */,
 				7141C73D1F2FAFBB00EC9628 /* AppDelegate.swift */,
@@ -77,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7141C73F1F2FAFBB00EC9628 /* GoalsVC.swift */,
+				7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -89,12 +95,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		7FDBA34E1FAC937000B6ED28 /* Enums */ = {
+		7141C7541F2FAFFF00EC9628 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				7FDBA34F1FAC937C00B6ED28 /* GoalType.swift */,
+				7141C7581F2FC4DB00EC9628 /* GoalType.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		7F6747231FB2030D00DB1965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7141C7571F2FBC0800EC9628 /* GoalCell.swift in Sources */,
-				7FDBA3501FAC937C00B6ED28 /* GoalType.swift in Sources */,
+				7141C75B1F2FC9EB00EC9628 /* CreateGoalVC.swift in Sources */,
+				7141C7591F2FC4DB00EC9628 /* GoalType.swift in Sources */,
 				7141C7401F2FAFBB00EC9628 /* GoalsVC.swift in Sources */,
 				7141C73E1F2FAFBB00EC9628 /* AppDelegate.swift in Sources */,
+				7F6747251FB2044000DB1965 /* UIViewControllerExt.swift in Sources */,
 				7141C7461F2FAFBB00EC9628 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,10 +325,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5J8N672PJG;
+				DEVELOPMENT_TEAM = HLCDLFXF5Y;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rocketapp.goalpost-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stultzapps.goalpost-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,10 +339,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5J8N672PJG;
+				DEVELOPMENT_TEAM = HLCDLFXF5Y;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rocketapp.goalpost-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stultzapps.goalpost-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
