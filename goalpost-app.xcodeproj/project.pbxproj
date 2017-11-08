@@ -16,9 +16,10 @@
 		7141C7571F2FBC0800EC9628 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7561F2FBC0800EC9628 /* GoalCell.swift */; };
 		7141C7591F2FC4DB00EC9628 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7581F2FC4DB00EC9628 /* GoalType.swift */; };
 		7141C75B1F2FC9EB00EC9628 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */; };
-		7F6747251FB2044000DB1965 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */; };
-		7F6747271FB31CC300DB1965 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747261FB31CC300DB1965 /* UIViewExt.swift */; };
-		7F6747291FB331ED00DB1965 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747281FB331ED00DB1965 /* UIButtonExt.swift */; };
+		7141C75D1F2FCDF200EC9628 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C75C1F2FCDF200EC9628 /* UIViewControllerExt.swift */; };
+		7141C75F1F2FE06000EC9628 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C75E1F2FE06000EC9628 /* UIViewExt.swift */; };
+		7141C7611F2FE35000EC9628 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7601F2FE35000EC9628 /* UIButtonExt.swift */; };
+		7141C7631F2FEC2400EC9628 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7621F2FEC2400EC9628 /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +34,10 @@
 		7141C7561F2FBC0800EC9628 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		7141C7581F2FC4DB00EC9628 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
-		7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
-		7F6747261FB31CC300DB1965 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		7F6747281FB331ED00DB1965 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		7141C75C1F2FCDF200EC9628 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		7141C75E1F2FE06000EC9628 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		7141C7601F2FE35000EC9628 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		7141C7621F2FEC2400EC9628 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,7 @@
 		7141C73C1F2FAFBB00EC9628 /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
-				7F6747231FB2030D00DB1965 /* Extensions */,
+				7141C7551F2FB00600EC9628 /* Extensions */,
 				7141C7541F2FAFFF00EC9628 /* Enums */,
 				7141C7531F2FAFE500EC9628 /* View */,
 				7141C7521F2FAFD500EC9628 /* Controller */,
@@ -87,6 +89,7 @@
 			children = (
 				7141C73F1F2FAFBB00EC9628 /* GoalsVC.swift */,
 				7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */,
+				7141C7621F2FEC2400EC9628 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,12 +110,12 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		7F6747231FB2030D00DB1965 /* Extensions */ = {
+		7141C7551F2FB00600EC9628 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */,
-				7F6747261FB31CC300DB1965 /* UIViewExt.swift */,
-				7F6747281FB331ED00DB1965 /* UIButtonExt.swift */,
+				7141C75C1F2FCDF200EC9628 /* UIViewControllerExt.swift */,
+				7141C75E1F2FE06000EC9628 /* UIViewExt.swift */,
+				7141C7601F2FE35000EC9628 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -192,10 +195,11 @@
 				7141C75B1F2FC9EB00EC9628 /* CreateGoalVC.swift in Sources */,
 				7141C7591F2FC4DB00EC9628 /* GoalType.swift in Sources */,
 				7141C7401F2FAFBB00EC9628 /* GoalsVC.swift in Sources */,
-				7F6747271FB31CC300DB1965 /* UIViewExt.swift in Sources */,
+				7141C75F1F2FE06000EC9628 /* UIViewExt.swift in Sources */,
 				7141C73E1F2FAFBB00EC9628 /* AppDelegate.swift in Sources */,
-				7F6747251FB2044000DB1965 /* UIViewControllerExt.swift in Sources */,
-				7F6747291FB331ED00DB1965 /* UIButtonExt.swift in Sources */,
+				7141C75D1F2FCDF200EC9628 /* UIViewControllerExt.swift in Sources */,
+				7141C7611F2FE35000EC9628 /* UIButtonExt.swift in Sources */,
+				7141C7631F2FEC2400EC9628 /* FinishGoalVC.swift in Sources */,
 				7141C7461F2FAFBB00EC9628 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +340,7 @@
 				DEVELOPMENT_TEAM = 5J8N672PJG;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rocketApp.goalpost-apps";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocketApp.goalpostApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,7 +354,7 @@
 				DEVELOPMENT_TEAM = 5J8N672PJG;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rocketApp.goalpost-apps";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocketApp.goalpostApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

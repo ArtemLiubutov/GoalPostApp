@@ -2,7 +2,7 @@
 //  UIViewExt.swift
 //  goalpost-app
 //
-//  Created by Artem Lubytov on 08.11.2017.
+//  Created by Caleb Stultz on 7/31/17.
 //  Copyright © 2017 Caleb Stultz. All rights reserved.
 //
 
