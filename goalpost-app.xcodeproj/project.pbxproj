@@ -17,6 +17,8 @@
 		7141C7591F2FC4DB00EC9628 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C7581F2FC4DB00EC9628 /* GoalType.swift */; };
 		7141C75B1F2FC9EB00EC9628 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */; };
 		7F6747251FB2044000DB1965 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */; };
+		7F6747271FB31CC300DB1965 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747261FB31CC300DB1965 /* UIViewExt.swift */; };
+		7F6747291FB331ED00DB1965 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6747281FB331ED00DB1965 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		7141C7581F2FC4DB00EC9628 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		7141C75A1F2FC9EB00EC9628 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		7F6747261FB31CC300DB1965 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		7F6747281FB331ED00DB1965 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				7F6747241FB2044000DB1965 /* UIViewControllerExt.swift */,
+				7F6747261FB31CC300DB1965 /* UIViewExt.swift */,
+				7F6747281FB331ED00DB1965 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,8 +192,10 @@
 				7141C75B1F2FC9EB00EC9628 /* CreateGoalVC.swift in Sources */,
 				7141C7591F2FC4DB00EC9628 /* GoalType.swift in Sources */,
 				7141C7401F2FAFBB00EC9628 /* GoalsVC.swift in Sources */,
+				7F6747271FB31CC300DB1965 /* UIViewExt.swift in Sources */,
 				7141C73E1F2FAFBB00EC9628 /* AppDelegate.swift in Sources */,
 				7F6747251FB2044000DB1965 /* UIViewControllerExt.swift in Sources */,
+				7F6747291FB331ED00DB1965 /* UIButtonExt.swift in Sources */,
 				7141C7461F2FAFBB00EC9628 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,10 +333,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
+				DEVELOPMENT_TEAM = 5J8N672PJG;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stultzapps.goalpost-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocketApp.goalpost-apps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,10 +347,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
+				DEVELOPMENT_TEAM = 5J8N672PJG;
 				INFOPLIST_FILE = "goalpost-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stultzapps.goalpost-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocketApp.goalpost-apps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
