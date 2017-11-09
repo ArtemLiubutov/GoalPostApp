@@ -9,7 +9,6 @@
 import UIKit
 
 extension UIViewController {
-    
     func presentDetail(_ viewControllerToPresent: UIViewController) {
         let transition = CATransition()
         transition.duration = 0.3
@@ -21,12 +20,11 @@ extension UIViewController {
     }
     
     func presentSecondaryDetail(_ viewControllerToPresent: UIViewController) {
-        
         let transition = CATransition()
         transition.duration = 0.3
         transition.type = kCATransitionPush
         transition.subtype = kCATransitionFromRight
-        
+
         guard let presentedViewController = presentedViewController else { return }
         
         presentedViewController.dismiss(animated: false) {
